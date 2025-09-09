@@ -1,0 +1,6 @@
+a = int(input("a: "))
+b = int(input("b: "))
+c = int(input("c: "))
+ac = abs(c - a)
+bc = abs(b - c)
+print(ac, bc, (ac*bc))
